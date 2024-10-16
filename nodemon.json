@@ -1,0 +1,6 @@
+{
+    "watch": ["src"],
+    "ext": "ts,json",
+    "ignore": ["src/routes.ts", "src/swagger.json"],
+    "exec": "cross-env APP_ENV=local && tsoa spec-and-routes && ts-node src/index.ts"
+}

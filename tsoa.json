@@ -1,0 +1,23 @@
+{
+  "entryFile": "src/index.ts",
+  "noImplicitAdditionalProperties": "ignore",
+  "controllerPathGlobs": [
+    "src/**/*.controller.ts"
+  ],
+  "spec": {
+    "outputDirectory": "src",
+    "specVersion": 3,
+    "version": "1.0.0",
+    "name": "efact-gateway",
+    "specMerging": "recursive",
+    "schemes": [
+      "http",
+      "https"
+    ]
+  },
+  "routes": {
+    "basePath": "",
+    "routesDir": "src",
+    "middleware": "koa"
+  }
+}

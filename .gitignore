@@ -1,0 +1,28 @@
+
+# package directories
+node_modules
+build
+logs
+coverage
+dist
+
+# local env files
+config/.env.local
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# misc
+.DS_Store
+.vscode/
+*.lock
+
+config/.env.local
+src/routes.ts
+src/swagger.json
+logs.log
+test-report.xml
+.scannerwork
+.idea
